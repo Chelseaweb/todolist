@@ -3,7 +3,6 @@
     padding: 0px;
   }
   body {
-    font-size: 120%;
     background: #5F9EA0;;
   }
   
@@ -67,9 +66,6 @@
     margin-bottom: 20px;
   }
 
-.images{
-    float: left;
-}
 
 h1{
     text-align: center;
