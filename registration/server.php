@@ -25,7 +25,8 @@ $db = mysqli_connect('localhost', 'root', 'new_password', 'registration');
   // form validation: ensure that the form is correctly filled ...
   // by adding (array_push()) corresponding error unto $errors array
   if (empty($username)) { array_push($errors, "Username is required"); }
-  if (empty($email)) { array_push($errors, "Email is required"); }
+  if (empty($email)) { array_push($errors, "Email is re
+    quired"); }
   if (empty($password_1)) { array_push($errors, "Password is required"); }
   if ($password_1 != $password_2) {
 	array_push($errors, "The two passwords do not match");

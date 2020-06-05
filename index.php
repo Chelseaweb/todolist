@@ -40,10 +40,10 @@
   define("DB_SERVER","localhost");
   define("DB_USERNAME","root");
   define("DB_PASSWORD","new_password");
-  define("DB_DATABASE", "registration");
+  define("DB_DATABASE", "todo");
 
 	// connect to database
-  $db = mysqli_connect('localhost', 'root', 'new_password', 'registration');
+  $db = mysqli_connect('localhost', 'root', 'new_password', 'todo');
     
 
 	// insert a quote if submit button is clicked
